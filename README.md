@@ -40,7 +40,7 @@ To get this, start with a colon and describe the emoji 😃
 Creating a table
 Heading
 Referencing something already stated below
-How important the trainig is [Conclusion](conclusion)
+What you are referencing must have # and be in lower case. How important the trainig is [Conclusion](#conclusion)
 
 
 ### Power BI
