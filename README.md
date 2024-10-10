@@ -13,8 +13,11 @@ As one of the participant in Data Analysis class, i will highlight some of my ta
 Microsoft Excel is a powerful spreadsheet application widely used for data organization, calculation, and analysis. It enables users to store data in a structured format, perform complex calculations, and visualize data through charts and graphs. Excel’s versatility makes it a critical tool in various fields such as finance, project management, data analysis, and more. Its ability to handle large datasets, perform data cleaning, and automate repetitive tasks with macros increases efficiency and productivity. Excel is also equipped with features like PivotTables, which allow users to summarize and analyze data dynamically, and conditional formatting, which visually highlights critical insights. Understanding Excel is essential for anyone looking to work in data-centric roles, as it provides a solid foundation for further explorations in data analysis and business intelligence.
 
 Excel Functions Excel functions are pre-built formulas that simplify complex calculations and automate data processing tasks. There are hundreds of functions in Excel, categorized under various domains such as mathematics, statistics, text manipulation, and logical operations. Some common Excel functions include SUM for adding values, VLOOKUP for searching data vertically in a table, IF for logical comparisons, and AVERAGE for calculating the mean of a dataset. These functions not only save time but also reduce the possibility of errors in manual calculations. Mastering these functions can transform Excel into a powerful tool for data manipulation and analysis, making it invaluable for professionals in data-driven environments.
+Data Visualization
 
-### SQL (Structured Query Language)
+
+### SQL (Structured Query Language)<img width="609" alt="GRAPHICAL PRES" src="https://github.com/user-attachments/assets/ce81b504-d0de-43ff-b60c-b510f8194783">
+
 
 SQL clauses https://www.youtube.com/live/n5SG2POhvrU?si=whq4C3q0ZJOib0qS
 
@@ -31,6 +34,14 @@ WHERE CONDITION=TRUE
 ### GitHub
 
 GitHub is a web-based platform that facilitates version control and collaborative software development. It leverages the Git version control system to track changes in code, manage project versions, and coordinate teamwork. Users can create repositories, which act as storage spaces for project files, and commit changes to keep track of every modification made to the project. Features like pull requests and branches allow developers to work on different aspects of a project simultaneously and review each other’s work before merging changes into the main project. GitHub is essential for software developers and teams working on collaborative projects, as it enhances code management, collaboration, and continuous integration.
+
+Video on youtube [click here](https://www.youtube.com/live/p46Mkh0Lo68?si=alFTdIs0UcUjQOLY)
+To get this, start with a colon and describe the emoji 😃
+Creating a table
+Heading
+Referencing something already stated below
+How important the trainig is [Conclusion](conclusion)
+
 
 ### Power BI
 
