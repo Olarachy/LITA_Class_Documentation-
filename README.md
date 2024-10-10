@@ -6,7 +6,9 @@ As one of the participant in Data Analysis class, i will highlight some of my ta
 
 ## DATA ANALYSIS
 
-### Microsoft Excel
+### Microsoft Excel 
+ to access youtube video click here([https://www.youtube.com/live/GbhNvK4uTtY?si=QtfjXVGOLmawPO8x])
+ Excel Functions https://www.youtube.com/live/Jb5ZHO8hIPY?si=AycIkU8Okdwh9smi
 
 Microsoft Excel is a powerful spreadsheet application widely used for data organization, calculation, and analysis. It enables users to store data in a structured format, perform complex calculations, and visualize data through charts and graphs. Excel’s versatility makes it a critical tool in various fields such as finance, project management, data analysis, and more. Its ability to handle large datasets, perform data cleaning, and automate repetitive tasks with macros increases efficiency and productivity. Excel is also equipped with features like PivotTables, which allow users to summarize and analyze data dynamically, and conditional formatting, which visually highlights critical insights. Understanding Excel is essential for anyone looking to work in data-centric roles, as it provides a solid foundation for further explorations in data analysis and business intelligence.
 
@@ -14,7 +16,17 @@ Excel Functions Excel functions are pre-built formulas that simplify complex cal
 
 ### SQL (Structured Query Language)
 
+SQL clauses https://www.youtube.com/live/n5SG2POhvrU?si=whq4C3q0ZJOib0qS
+
 SQL, or Structured Query Language, is a standardized language used to interact with databases. It allows users to query, manipulate, and manage data stored in relational databases like MySQL, PostgreSQL, and SQL Server. SQL enables users to create tables, insert, update, and delete data, and retrieve information using SELECT queries. Complex data analysis can be performed using SQL commands like JOIN to combine data from multiple tables, GROUP BY for summarizing data, and ORDER BY for sorting results. SQL's ability to handle large volumes of data makes it indispensable in data analysis, business intelligence, and backend development. By understanding SQL, professionals can efficiently manage and interpret data, making it a crucial skill for anyone working in data-related fields.
+
+```SQL
+SELECT * FROM TABLE 1
+WHERE CONDITION=TRUE
+```
+
+
+
 
 ### GitHub
 
@@ -23,6 +35,9 @@ GitHub is a web-based platform that facilitates version control and collaborativ
 ### Power BI
 
 Power BI is a business analytics service provided by Microsoft that enables users to transform raw data into interactive dashboards and reports. It offers a user-friendly interface for data visualization, allowing users to connect to various data sources, perform data cleaning, and generate insights using drag-and-drop features. Power BI's visualizations include bar charts, line graphs, maps, and scatter plots, making it easier to identify trends and patterns in data. With its capability to handle large datasets, integrate with other Microsoft services, and provide real-time analytics, Power BI is widely used in business intelligence to drive data-informed decision-making. Mastering Power BI empowers users to create compelling data stories that facilitate better business strategies and performance tracking.
+
+#### POWER BI FUNDAMENTALS
+To see the youtube video on this [Click here](https://www.youtube.com/live/QFJ09s-NSR0?si=SAvPbrTdIRsmP5eu)
 
 ## CONCLUSION
 
