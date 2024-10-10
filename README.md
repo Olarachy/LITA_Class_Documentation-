@@ -42,6 +42,12 @@ Heading
 Referencing something already stated below
 What you are referencing must have # and be in lower case. How important the trainig is [Conclusion](#conclusion)
 
+To create table
+
+| Heading 1 | Heading 2|
+|-----------|----------|
+| Content 1 | Content 2|
+
 
 ### Power BI
 
