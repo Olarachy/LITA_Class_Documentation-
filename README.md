@@ -235,7 +235,8 @@ Filters: Drag a field into the Filters area to create filters to view a specific
 Example
 
 Group data by month
-
+click here for youtube video on pivot table https://www.youtube.com/live/Qufpy3ml6po?si=IS6kJT3HCtLH7Sda
+also https://www.youtube.com/live/3vhDfmzCVxM?si=6PN6aWTvFy-JSFsK
 
 
 
