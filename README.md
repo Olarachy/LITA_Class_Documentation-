@@ -253,6 +253,111 @@ Data Visualization
 SQL clauses https://www.youtube.com/live/n5SG2POhvrU?si=whq4C3q0ZJOib0qS
 
 SQL, or Structured Query Language, is a standardized language used to interact with databases. It allows users to query, manipulate, and manage data stored in relational databases like MySQL, PostgreSQL, and SQL Server. SQL enables users to create tables, insert, update, and delete data, and retrieve information using SELECT queries. Complex data analysis can be performed using SQL commands like JOIN to combine data from multiple tables, GROUP BY for summarizing data, and ORDER BY for sorting results. SQL's ability to handle large volumes of data makes it indispensable in data analysis, business intelligence, and backend development. By understanding SQL, professionals can efficiently manage and interpret data, making it a crucial skill for anyone working in data-related fields.
+SQL Commands:
+
+SQL (Structured Query Language) commands are categorized based on their functionality:
+
+DDL (Data Definition Language): Used to define and manage database structures. Examples include:
+
+CREATE: Creates a new table, database, view, etc.
+
+ALTER: Modifies an existing database structure.
+
+DROP: Deletes tables, views, or databases.
+
+
+DML (Data Manipulation Language): Used to manipulate data within the database. Examples include:
+
+SELECT: Retrieves data from a database.
+
+INSERT: Adds new data to a table.
+
+UPDATE: Modifies existing data in a table.
+
+DELETE: Removes data from a table.
+
+
+DCL (Data Control Language): Used to control access to data. Examples include:
+
+GRANT: Grants access to users.
+
+REVOKE: Removes access rights from users.
+
+
+TCL (Transaction Control Language): Manages transactions. Examples include:
+
+COMMIT: Saves transactions.
+
+ROLLBACK: Reverts changes made by transactions.
+
+
+
+2. SQL Data Types:
+
+SQL data types define the kind of data that can be stored in a column:
+
+Numeric Types:
+
+INT: Integer values.
+
+DECIMAL/NUMERIC: Exact numeric values with fixed precision.
+
+FLOAT: Approximate floating-point numbers.
+
+
+Character Types:
+
+VARCHAR: Variable-length string.
+
+CHAR: Fixed-length string.
+
+TEXT: Large text data.
+
+
+Date/Time Types:
+
+DATE: Date values (YYYY-MM-DD).
+
+TIMESTAMP: Date and time values.
+
+
+Boolean:
+
+BOOLEAN: Represents TRUE or FALSE values.
+
+
+
+3. SQL Alias:
+
+An alias is a temporary name given to a table or column for readability or simplification.
+
+Column Alias: Assigns a new name to a column in the result set.
+
+SELECT name AS employee_name FROM employees;
+
+Table Alias: Assigns a temporary name to a table, useful in complex queries, especially with joins.
+
+SELECT e.name, d.name FROM employees AS e JOIN departments AS d ON e.dept_id = d.id;
+
+
+4. SQL View:
+
+A view is a virtual table based on the result set of an SQL query. It doesn't store data but presents data from one or more tables in a specific way.
+
+Creating a View:
+
+CREATE VIEW employee_view AS 
+SELECT name, salary FROM employees WHERE department = 'HR';
+
+Benefits of Views:
+
+Simplifies complex queries.
+
+Enhances security by restricting access to specific columns or rows.
+
+Provides a way to represent data in different forms without altering the underlying tables.
+
+
 
 ```SQL
 SELECT * FROM TABLE 1
@@ -285,6 +390,77 @@ To create table
 Power BI is a business analytics service provided by Microsoft that enables users to transform raw data into interactive dashboards and reports. It offers a user-friendly interface for data visualization, allowing users to connect to various data sources, perform data cleaning, and generate insights using drag-and-drop features. Power BI's visualizations include bar charts, line graphs, maps, and scatter plots, making it easier to identify trends and patterns in data. With its capability to handle large datasets, integrate with other Microsoft services, and provide real-time analytics, Power BI is widely used in business intelligence to drive data-informed decision-making. Mastering Power BI empowers users to create compelling data stories that facilitate better business strategies and performance tracking.
 
 #### POWER BI FUNDAMENTALS
+Data Entry:
+
+In Power BI, you can manually input data by using the "Enter Data" feature. It allows you to create a small table of data directly in Power BI without importing from an external source. This is useful for adding reference data or small datasets quickly.
+
+2. Transform Data:
+
+The "Transform Data" feature opens the Power Query Editor, where you can clean, shape, and modify your data before loading it into Power BI. Common transformations include:
+
+Changing data types.
+
+Removing duplicates.
+
+Filtering rows.
+
+Pivoting/Unpivoting columns.
+
+
+3. Data Cleaning:
+
+Data cleaning in Power BI involves preparing the data for analysis by handling inconsistencies or errors. Techniques include:
+
+Removing null values.
+
+Splitting or merging columns.
+
+Correcting formatting issues (e.g., dates, text case).
+
+Replacing incorrect or missing data.
+
+
+4. Table/Matrix:
+
+Table: A visual that displays data in rows and columns, similar to a spreadsheet. Each row represents a data record, and each column represents a data field.
+
+Matrix: Similar to a table but allows for hierarchical data and pivot-like functionality. It can show data summaries, allowing grouping by rows and columns, making it ideal for comparisons.
+
+
+5. Conditional Column:
+
+In Power BI, a conditional column is created using logic (IF-THEN statements) to add a new column based on certain conditions in existing columns. For example, a column could classify sales performance as "High," "Medium," or "Low" based on the sales amount.
+
+6. Measure/Calculated Values:
+
+Measure: A dynamic calculation that aggregates data based on filters and interactions in the report. It's context-dependent. Example: Total Sales = SUM(Sales[Amount]).
+
+Calculated Column: A static value computed at the row level and stored in the data model. It doesn't change with filters. Example: Profit Margin = Sales[Profit] / Sales[Revenue].
+
+
+7. DAX (Data Analysis Expressions):
+
+DAX is the formula language used in Power BI for creating measures, calculated columns, and calculated tables. It includes functions for:
+
+Aggregation (SUM, AVERAGE).
+
+Time intelligence (YTD, QTD).
+
+Filtering and context manipulation (FILTER, CALCULATE).
+
+
+8. Model View:
+
+The Model View in Power BI allows you to see and manage relationships between tables. You can create relationships by linking columns, define the cardinality, and set cross-filter directions. This view helps in organizing how tables interact in your reports.
+
+9. Table View:
+
+The Table View displays the data in a tabular format, allowing you to inspect the actual data loaded into your data model. It helps ensure that data is correctly imported and that any transformations were applied correctly.
+
+10. Report View:
+
+The Report View is where you design your visual reports. You can drag fields to create charts, graphs, tables, and other visuals. It is the primary interface for building and customizing the visual representation of your data for end users.
+
 To see the youtube video on this [Click here](https://www.youtube.com/live/QFJ09s-NSR0?si=SAvPbrTdIRsmP5eu)
 
 ## CONCLUSION
