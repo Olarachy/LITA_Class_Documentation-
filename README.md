@@ -431,9 +431,18 @@ Matrix: Similar to a table but allows for hierarchical data and pivot-like funct
 
 In Power BI, a conditional column is created using logic (IF-THEN statements) to add a new column based on certain conditions in existing columns. For example, a column could classify sales performance as "High," "Medium," or "Low" based on the sales amount.
 
+Count of attrition, using card
+Sorting in decending/ascending order with irregular values
+1. Create conditional column using numbers to measure each range accordingly
+2. Close and apply after that
+3. On your table view. Sort the column by the 
+
 6. Measure/Calculated Values:
 
-Measure: A dynamic calculation that aggregates data based on filters and interactions in the report. It's context-dependent. Example: Total Sales = SUM(Sales[Amount]).
+Measure: A dynamic calculation that aggregates data based on filters and interactions in the report. It's context-dependent. 
+
+Example using the HR Data Find atttrition rate of employee
+```Attrition Rate = SUM('HR data'[Attrition Count]) /SUM('HR data'[Employee Count])```
 
 Calculated Column: A static value computed at the row level and stored in the data model. It doesn't change with filters. Example: Profit Margin = Sales[Profit] / Sales[Revenue].
 
