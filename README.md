@@ -8,9 +8,13 @@ As one of the participant in Data Analysis class, i will highlight some of my ta
 
 ### Microsoft Excel 
 
-Excel: Data Entry, Data Validation, and Named Ranges
+Microsoft Excel is a powerful spreadsheet application widely used for data organization, calculation, and analysis. It enables users to store data in a structured format, perform complex calculations, and visualize data through charts and graphs. Excel’s versatility makes it a critical tool in various fields such as finance, project management, data analysis, and more. Its ability to handle large datasets, perform data cleaning, and automate repetitive tasks with macros increases efficiency and productivity. Excel is also equipped with features like PivotTables, which allow users to summarize and analyze data dynamically, and conditional formatting, which visually highlights critical insights. Understanding Excel is essential for anyone looking to work in data-centric roles, as it provides a solid foundation for further explorations in data analysis and business intelligence.
 
 Excel is a powerful tool for data entry, and while inputting data into spreadsheets may seem straightforward, understanding the fundamentals of data entry, data formatting, and data validation is crucial. These skills not only make the process smoother but also help avoid common errors.
+
+## Data Entry
+## Data Validation
+## Named Ranges
 
 ### **Data Entry Fundamentals**
 1. **Understanding Data Types:** Excel recognizes two primary types of data: text and numbers. Ensuring your data is correctly categorized will help Excel function properly, especially when using formulas or data analysis tools.
@@ -39,30 +43,26 @@ Named ranges allow you to assign a name to a group of cells, making it easier to
 - Ctrl+ Shift+ Down Arrow: Select all below
 - Ctrl+ Shift+ Up Arrow: Select all above
 - Alt+A+V+V: Data Validation
-- ctrl + A : Function arguement box
-Ctrl + Arrow Keys: Quickly move to the edge of data regions
-Ctrl + Z: Undo the last action.
-Ctrl + A: Select all
-Ctrl + ;(semi-colon) Enter the current date in a cell.
-Ctrl + Shift + ;(semi-colon) Enter the current time in a cell.
-Ctrl + Shift + "+" (Plus Sign) Insert a new cell, row, or column.
-Ctrl + "-" (Minus Sign) Delete the selected cell, row, or column.
-6. **Ctrl + D**  
-   Copy the contents from the cell above into the current cell (fill down).
-7. **Ctrl + R**  
-   Copy the contents from the cell to the left into the current cell (fill right).
-8. **Ctrl + ' (Apostrophe)**  
-   Copy the formula from the cell above into the current cell.
-10. **Ctrl + T**  
-    Create a table from the selected range, which can make data entry more organized and easier to manage.
-13. **Shift + F2**  
-    Insert or edit a comment in the selected cell (useful for adding notes or instructions related to data entry).
-15. **Ctrl + Shift + :**  
-    Enter the current time in a cell
+- Ctrl + A : Function arguement box
+- Ctrl + Arrow Keys: Quickly move to the edge of data regions
+- Ctrl + Z: Undo the last action.
+- Ctrl + A: Select all
+- Ctrl + ;(semi-colon) Enter the current date in a cell.
+- Ctrl + Shift + ;(semi-colon) Enter the current time in a cell.
+- Ctrl + Shift + "+" (Plus Sign) Insert a new cell, row, or column.
+- Ctrl + "-" (Minus Sign) Delete the selected cell, row, or column.
+- Ctrl + D ; Copy the contents from the cell above into the current cell (fill down).
+- Ctrl + R ; Copy the contents from the cell to the left into the current cell (fill right).
+- Ctrl + ' (Apostrophe) ; Copy the formula from the cell above into the current cell.
+- Ctrl + T ; Create a table from the selected range, which can make data entry more organized and easier to manage.
+- Shift + F2; Insert or edit a comment in the selected cell (useful for adding notes or instructions related to data entry).
+- Ctrl + Shift + : Enter the current time in a cell
   
 To access youtube video on Excel fundamental [click here](https://www.youtube.com/live/GbhNvK4uTtY?si=QtfjXVGOLmawPO8x])
 
 ### Excel Functions
+
+Excel Functions Excel functions are pre-built formulas that simplify complex calculations and automate data processing tasks. There are hundreds of functions in Excel, categorized under various domains such as mathematics, statistics, text manipulation, and logical operations. Some common Excel functions include SUM for adding values, VLOOKUP for searching data vertically in a table, IF for logical comparisons, and AVERAGE for calculating the mean of a dataset. These functions not only save time but also reduce the possibility of errors in manual calculations. Mastering these functions can transform Excel into a powerful tool for data manipulation and analysis, making it invaluable for professionals in data-driven environments.
 
 1. SUM():
 
@@ -201,7 +201,7 @@ Searches for a value in the first column of a range and returns a value in the s
 Example: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 =VLOOKUP($E9,'Simple Salary Structure'!$B$8:O16,8,FALSE)
 
-Excel Functions (https://www.youtube.com/live/Jb5ZHO8hIPY?si=AycIkU8Okdwh9smi)
+Excel Functions on youtube [click here](https://www.youtube.com/live/Jb5ZHO8hIPY?si=AycIkU8Okdwh9smi)
 
 PIVOT TABLE
 
@@ -235,15 +235,11 @@ Filters: Drag a field into the Filters area to create filters to view a specific
 Example
 
 Group data by month
-click here for youtube video on pivot table https://www.youtube.com/live/Qufpy3ml6po?si=IS6kJT3HCtLH7Sda
-also https://www.youtube.com/live/3vhDfmzCVxM?si=6PN6aWTvFy-JSFsK
+
+[Click here](https://www.youtube.com/live/Qufpy3ml6po?si=IS6kJT3HCtLH7Sda) 
+also [Here](https://www.youtube.com/live/3vhDfmzCVxM?si=6PN6aWTvFy-JSFsK)
 
 
-
-
-Microsoft Excel is a powerful spreadsheet application widely used for data organization, calculation, and analysis. It enables users to store data in a structured format, perform complex calculations, and visualize data through charts and graphs. Excel’s versatility makes it a critical tool in various fields such as finance, project management, data analysis, and more. Its ability to handle large datasets, perform data cleaning, and automate repetitive tasks with macros increases efficiency and productivity. Excel is also equipped with features like PivotTables, which allow users to summarize and analyze data dynamically, and conditional formatting, which visually highlights critical insights. Understanding Excel is essential for anyone looking to work in data-centric roles, as it provides a solid foundation for further explorations in data analysis and business intelligence.
-
-Excel Functions Excel functions are pre-built formulas that simplify complex calculations and automate data processing tasks. There are hundreds of functions in Excel, categorized under various domains such as mathematics, statistics, text manipulation, and logical operations. Some common Excel functions include SUM for adding values, VLOOKUP for searching data vertically in a table, IF for logical comparisons, and AVERAGE for calculating the mean of a dataset. These functions not only save time but also reduce the possibility of errors in manual calculations. Mastering these functions can transform Excel into a powerful tool for data manipulation and analysis, making it invaluable for professionals in data-driven environments.
 Data Visualization
 
 
